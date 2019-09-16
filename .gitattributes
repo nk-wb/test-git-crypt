@@ -1,0 +1,5 @@
+# Files are going to be encrypted
+crypt.txt filter=git-crypt diff=git-crypt
+
+# Making sure that .gitattributes is never encrypted. DON'T TOUCH THAT LINE AND ONE BELOW
+.gitattributes !filter !diff
